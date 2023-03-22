@@ -5,7 +5,7 @@ Repository of the article ...
 
 This repository contain different homemade scripts used in the analyse of the article greenzone.
 
-## List of the scripts with there use :
+## List of the scripts :
 
 ### To explore Stacks parameters
 - gogoStacksExplorer_no_n_inf_M_paired.sh 
