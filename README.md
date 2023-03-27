@@ -3,7 +3,7 @@ Repository of the article ...
 
 ## Scripts used for the greenzone article
 
-This repository contain different homemade scripts used in the analyse of the article greenzone.
+This repository contain different homemade scripts used in the workflow of the supplementary of the greenzone article.
 
 ### List of the scripts :
 
