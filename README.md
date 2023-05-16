@@ -1,5 +1,6 @@
 # Greenworld
-Repository of the article ...
+Repository of the article *Rapid establishment of species barriers in plants
+compared to animals*
 
 ## Scripts used for the greenzone article
 
