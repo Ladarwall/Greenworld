@@ -13,7 +13,7 @@ This repository contain different homemade scripts used in the workflow of the s
 - GimmeRad2plot.sh
 - StacksExplorer_plots.R
 
-
+# list of R packages TODO
 
 ### StacksExplore.sh
 This script can be used to launch a set of *denovo_map.pl* runs (from Stacks) with different parameters.
@@ -28,7 +28,10 @@ Once all the runs have been completed, the next script to use is *gimmeRad2plot.
 
 ### gimmeRad2plot.sh
 This script collect and write in a .tsv file the results from all the run of *denovo_map.pl* from *StacksExplorer.sh*.
-It require as single argument the pathway to the directory of runs produced by *StacksExplorer.sh* (optional if launched from the same directory as *StackExplore.sh*).
+It require as single argument the pathway to the output directory produced by *StacksExplorer.sh* (*stacksExplorer_rdy2plot.tsv*).
+This .tsv can be used with StacksExplorer_plots.R to plots the results of the different parameter combinations.
 
 Can be used with `gimmeRad2plot.sh ./path/to/stacksExplorer_rdy2plot.tsv` or `gimmeRad2plot.sh` if runned from the same directory as *stacksExplorer_rdy2plot.tsv*.
+
+### StacksExplorer_plots.R
 
