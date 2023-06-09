@@ -21,4 +21,7 @@ This step is usefull to explore suitable parameter configurations for *denovo_ma
 
 The script require two arguments. The pathway to a directory containing the sample files (.fastq.gz) and the pathway to the popmap file.
 The popmap file should include a list of the samples to be used with one ID and species per line, separated by a tab (an example is provided in this repository).
-`example of commands to run`
+
+This script can be run with the following command : `StacksExplorer.sh ./path/to/SamplesDirectory ./path/to/popmapFile`
+
+Once all the runs have been completed, the script *StacksExplorer_plot.R* can be used to produce plots
