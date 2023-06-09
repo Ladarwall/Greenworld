@@ -9,9 +9,9 @@ This repository contain different homemade scripts used in the workflow of the s
 ### List of the scripts :
 
 #### To explore Stacks parameters
-- gogoStacksExplorer_no_n_inf_M_paired.sh 
+- StacksExplorer.sh 
 - GimmeRad2plot.sh
-- StacksExplorer_plotter.R
+- StacksExplorer_plots.R
 
 
 
@@ -24,4 +24,6 @@ The popmap file should include a list of the samples to be used with one ID and 
 
 This script can be run with the following command : `StacksExplorer.sh ./path/to/SamplesDirectory ./path/to/popmapFile`
 
-Once all the runs have been completed, the script *StacksExplorer_plot.R* can be used to produce plots
+Once all the runs have been completed, the next script to use is *gimmeRad2plot.sh*.
+
+### gimmeRad2plot.sh
