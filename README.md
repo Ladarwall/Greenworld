@@ -27,16 +27,17 @@ This script can be run with the following command : `StacksExplorer.sh ./path/to
 Once all the runs have been completed, the next script to use is *gimmeRad2plot.sh*.
 
 ### gimmeRad2plot.sh
-This script collect and write in a .tsv file the results from all the run of *denovo_map.pl* from *StacksExplorer.sh*.
-It require as single argument the pathway to the output directory produced by *StacksExplorer.sh* (*stacksExplorer_rdy2plot.tsv*).
+This script collect and write in a .tsv file the results from all the runs of *denovo_map.pl* from *StacksExplorer.sh*.
+It require as single argument the pathway to the output directory produced by *StacksExplorer.sh* (*stacksExplorer/*).
 This .tsv can be used with StacksExplorer_plots.R to plots the results of the different parameter combinations.
 
-Can be used with `gimmeRad2plot.sh ./path/to/stacksExplorer_rdy2plot.tsv` or `gimmeRad2plot.sh` if runned from the same directory as *stacksExplorer_rdy2plot.tsv*.
+Can be used with `gimmeRad2plot.sh ./path/to/stacksExplorer/`.
 
 ### StacksExplorer_plots.R
 Produce a pdf with a plot of the total number of loci as the number of polymorphic loci in function of the different combination of parameters used with *denovo_map.pl*.
 It also produce a pdf with the % of polymorphic loci for each species. In each case, only the *r80* loci (see [Stacks documentation](https://catchenlab.life.illinois.edu/stacks/)) are reported.
 
-The script as to been run in the same directory as the 
+The script as to been run in the same directory as the output of *gimmeRad2plot.sh* (*stacksExplorer_rdy2plot.tsv*) and use as single arguement the name of genus (or analysis). It can be run with the following command `Rscript ~/bin/StacksExplorer_plots.R Genus_name`.
+
 
 
