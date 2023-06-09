@@ -27,3 +27,8 @@ This script can be run with the following command : `StacksExplorer.sh ./path/to
 Once all the runs have been completed, the next script to use is *gimmeRad2plot.sh*.
 
 ### gimmeRad2plot.sh
+This script collect and write in a .tsv file the results from all the run of *denovo_map.pl* from *StacksExplorer.sh*.
+It require as single argument the pathway to the directory of runs produced by *StacksExplorer.sh* (optional if launched from the same directory as *StackExplore.sh*).
+
+Can be used with `gimmeRad2plot.sh ./path/to/stacksExplorer_rdy2plot.tsv` or `gimmeRad2plot.sh` if runned from the same directory as *stacksExplorer_rdy2plot.tsv*.
+
