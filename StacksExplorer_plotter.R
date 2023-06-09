@@ -1,5 +1,5 @@
 rm(list=ls())
-### to plot the dataframe from gogoStacksExplorer.sh and gimmeRad2plot.sh (plot of r80 of rad data)
+### to plot the dataframe from StacksExplorer.sh and gimmeRad2plot.sh (plot of r80 of rad data)
 # One variable is hard coded (The name of the genus), see later in the script
 library(data.table)
 library(ggthemes)
