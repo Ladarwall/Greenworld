@@ -34,4 +34,4 @@ This .tsv can be used with StacksExplorer_plots.R to plots the results of the di
 Can be used with `gimmeRad2plot.sh ./path/to/stacksExplorer_rdy2plot.tsv` or `gimmeRad2plot.sh` if runned from the same directory as *stacksExplorer_rdy2plot.tsv*.
 
 ### StacksExplorer_plots.R
-
+Produce a plot of 
