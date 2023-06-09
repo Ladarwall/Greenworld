@@ -15,6 +15,11 @@ This repository contain different homemade scripts used in the workflow of the s
 
 # list of R packages TODO
 
+
+
+![Workflow diagram](./Workflow_diagram_v2.svg)
+<img src="./Workflow_diagram_v2.svg">
+
 ### StacksExplore.sh
 This script can be used to launch a set of *denovo_map.pl* runs (from Stacks) with different parameters.
 This step is usefull to explore suitable parameter configurations for *denovo_map.pl*.
