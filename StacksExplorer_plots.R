@@ -1,11 +1,16 @@
-rm(list=ls())
-### to plot the dataframe from StacksExplorer.sh and gimmeRad2plot.sh (plot of r80 of rad data)
-# One variable is hard coded (The name of the genus), see later in the script
+#!/usr/bin/env Rscript
+# StacksExplorer_plots.R *genus_name*
+
+### To plot the dataframe from gogoStacksExplorer.sh and gimmeRad2plot.sh (plot of r80 of rad data).
+### Take as single argument the name of the genus.
+
+library(rstudioapi) 
 library(data.table)
 library(ggthemes)
 library(ggbreak)
 library(ggplot2)
 
+args = commandArgs(trailingOnly=TRUE)
 # A function factory for getting integer axis values.
 integer_breaks <- function(n = 5, ...) {
   fxn <- function(x) {
@@ -16,7 +21,7 @@ integer_breaks <- function(n = 5, ...) {
   return(fxn)
 }
 
-genus = "" # <======= CHANGE GENUS NAME HERE
+genus = args[1] 
 plotme = fread("stacksExplorer_rdy2plot.tsv",header = T,sep = '\t')
 
 # to collect the name of each species
