@@ -1,5 +1,5 @@
 #/bin/bash
-# gogoStacksExplorer.sh *directory with samples* *popmap file*
+# StacksExplorer.sh *directory with samples* *popmap file*
 
 ### This script launch a set of denovo_map.pl (from Stacks) runs with different parameters to found out the best configuration ###
 
