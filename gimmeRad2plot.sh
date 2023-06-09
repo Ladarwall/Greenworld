@@ -1,16 +1,16 @@
 #!/bin/bash
 # gimmeRad2plot.sh *stacksExplorer directory*
 
-### Used after the script gogoStacksExplorer.sh to produce a file ready to be plot with StacksExplorer_plotter.R 
-# it doesn't take any argument, and output a dataframe (stacksexplorer_rdy2plot.csv) with the m, M, n, r80 (nb of loci present in at least 80% of individuals of a pop), the number of polymorphic loci and the r80 polymorphic loci (% of loci polymorphe per population).
+### Used after the script StacksExplorer.sh to produce a file ready to be plot with StacksExplorer_plots.R 
+# it doesn't take any argument, and output a dataframe (stacksExplorer_rdy2plot.csv) with the m, M, n, r80 (nb of loci present in at least 80% of individuals of a pop), the number of polymorphic loci and the r80 polymorphic loci (% of loci polymorphe per population).
 
 
 stacksExplorer=${1:-stacksExplorer}    
 
 # check if in the right place
-[[ ! -d $stacksExplorer ]] && echo -e "\nNo $stacksExplorer directory found.\nDid you run the gogoRadExplorer.sh ?\nAre you in the parent directory of the $stacksExplorer ?\nYou figure and come back to me.\n" && exit
+[[ ! -d $stacksExplorer ]] && echo -e "\nNo $stacksExplorer directory found.\nDid you run the StacksExplorer.sh ?\nAre you in the parent directory of the $stacksExplorer ?\n" && exit
 
-# check the number of fasta file produce (error if there is missing file)
+# check the number of fasta files produced (error if there is missing file)
 nb_comb=$(find $stacksExplorer/ -maxdepth 1 -wholename '*stacksExplorer_m*' | wc -l)
 nb_done=$(find $stacksExplorer/ -wholename '*/catalog.fa.gz' | wc -l)
 
@@ -59,8 +59,7 @@ for i in $(find ./$stacksExplorer -wholename '*/catalog.fa.gz');do # catalog.fa.
 		line_toadd="${line_toadd}\t$r80_loci_tmp"
 	done
 	echo -e "$line_toadd" >> $stacksExplorer/stacksExplorer_rdy2plot.tsv
-	#echo -e "${m_value}\t${M_value}\t${n_value}\t${r80}" >> stacksExplorer/stacksExplorer_rdy2plot.tsv
 	echo -e "\e[1A\e[KDone $cnt on ${nb_dir}." # weird part to overwrite previous echo
 	cnt=$(($cnt + 1))
 done
-echo -e "\nThe file stacksExplorer_rdy2plot.tsv has been produce in the $stacksExplorer directory.\nThe next script to use will be StacksExplorer_plotteur.R\n" 
+echo -e "\nThe file stacksExplorer_rdy2plot.tsv has been produce in the $stacksExplorer directory.\nThe next script to use will be StacksExplorer_plots.R\n" 
