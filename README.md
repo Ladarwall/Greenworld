@@ -45,4 +45,12 @@ It also produce a pdf with the % of polymorphic loci for each species. In each c
 The script as to been run in the same directory as the output of *gimmeRad2plot.sh* (*stacksExplorer_rdy2plot.tsv*) and use as single arguement the name of genus (or analysis). It can be run with the following command `Rscript ~/path/to/StacksExplorer_plots.R Genus_name`.
 
 
+## Modify fasta files
+### patchOneLine.sh
+This script loops over a fasta file to ensure that each sequence is in single-line format (with no line breaks after a certain number of bases).
+It can be run with the following command `patchOneLine.sh ./path/to/fasta`
 
+### patchSPname.sh
+The fasta file produce by this pipeline lack the correct species name in the sequence headers. 
+To correct this, you can use this command `patchSPname.sh ./path/to/fasta ./path/to/SraRunTable.txt`.
+The SraRunTable.txt is the metadata file and can be obtain from the NCBI page [SRA Run Selector](https://www-ncbi-nlm-nih-gov.inee.bib.cnrs.fr/Traces/study/). You can also produce a similar metadata with a file containing two column named "Organism" and "Sample_Name" and separated by a tab.
