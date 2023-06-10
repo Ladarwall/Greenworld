@@ -13,10 +13,8 @@ This repository contain different homemade scripts used in the workflow of the s
 - [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
 - [ggbreak](https://github.com/YuLab-SMU/ggbreak)
 - [ggplot2](https://ggplot2.tidyverse.org/)
-
-![Workflow diagram](./Workflow_diagram_v2.svg)
 ### Workflow of the article
-
+![Workflow diagram](./Workflow_diagram_v2.svg)
 
 ## Explore different combinations of parameters for **Stacks**
 The three following scripts can be used to explore different combinations of parameters for the script *denovo_map.pl* from **Stacks**.
