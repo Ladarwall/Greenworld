@@ -6,9 +6,6 @@ compared to animals*
 
 This repository contain different homemade scripts used in the workflow of the supplementary of the greenzone article.
 
-
-
-# list of R packages TODO
 ## List of software
 - [Stacks](https://catchenlab.life.illinois.edu/stacks/)
 ## List of R package
@@ -17,16 +14,8 @@ This repository contain different homemade scripts used in the workflow of the s
 - [ggbreak](https://github.com/YuLab-SMU/ggbreak)
 - [ggplot2](https://ggplot2.tidyverse.org/)
 
-
-
-
-
-
 ![Workflow diagram](./Workflow_diagram_v2.svg)
 ### Workflow of the article
-/////
-
-
 
 
 ## Explore different combinations of parameters for **Stacks**
