@@ -4,7 +4,6 @@
 ### To plot the dataframe from gogoStacksExplorer.sh and gimmeRad2plot.sh (plot of r80 of rad data).
 ### Take as single argument the name of the genus.
 
-library(rstudioapi) 
 library(data.table)
 library(ggthemes)
 library(ggbreak)
