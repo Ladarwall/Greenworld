@@ -9,11 +9,13 @@ This repository contain different homemade scripts used in the workflow of the s
 
 
 # list of R packages TODO
-## List of R packages
-- data.table
-- ggthemes
-- ggbreak
-- ggplot2
+## List of software
+- [Stacks](https://catchenlab.life.illinois.edu/stacks/)
+## List of R package
+- [data.table](https://rdrr.io/cran/data.table/)
+- [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
+- [ggbreak](https://github.com/YuLab-SMU/ggbreak)
+- [ggplot2](https://ggplot2.tidyverse.org/)
 
 
 ![Workflow diagram](./Workflow_diagram_v2.svg)
