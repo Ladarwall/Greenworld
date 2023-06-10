@@ -1,9 +1,6 @@
 # Greenworld
 Repository of the article *Rapid establishment of species barriers in plants
-compared to animals*. It contains different home made scripts used in the workflow.
-
-
-![Workflow diagram](./Workflow_diagram_v2.svg)
+compared to animals*. 
 
 ## List of software
 - [Stacks](https://catchenlab.life.illinois.edu/stacks/)
