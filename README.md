@@ -1,10 +1,7 @@
 # Greenworld
 Repository of the article *Rapid establishment of species barriers in plants
-compared to animals*
-
-## Scripts used for the greenzone article
-
-This repository contain different homemade scripts used in the workflow of the supplementary of the greenzone article.
+compared to animals*. It contains different home made scripts used in the workflow.
+![Workflow diagram](./Workflow_diagram_v2.svg)
 
 ## List of software
 - [Stacks](https://catchenlab.life.illinois.edu/stacks/)
@@ -13,8 +10,7 @@ This repository contain different homemade scripts used in the workflow of the s
 - [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
 - [ggbreak](https://github.com/YuLab-SMU/ggbreak)
 - [ggplot2](https://ggplot2.tidyverse.org/)
-### Workflow of the article
-![Workflow diagram](./Workflow_diagram_v2.svg)
+
 
 ## Explore different combinations of parameters for **Stacks**
 The three following scripts can be used to explore different combinations of parameters for the script *denovo_map.pl* from **Stacks**.
