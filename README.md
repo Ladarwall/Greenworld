@@ -9,7 +9,11 @@ This repository contain different homemade scripts used in the workflow of the s
 
 
 # list of R packages TODO
-
+## List of R packages
+data.table
+ggthemes
+ggbreak
+ggplot2
 
 
 ![Workflow diagram](./Workflow_diagram_v2.svg)
