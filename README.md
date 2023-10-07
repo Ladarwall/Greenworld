@@ -18,6 +18,7 @@ The purpose is to find a good enough combination of parameters to optimize the n
 ### StacksExplore.sh
 This script launch a set of *denovo_map.pl* runs (**Stacks**) with different parameters. It require two arguments: the pathway to a directory containing the sample files (fastq format) and the pathway to the popmap file.
 The popmap file should include a list of the samples to be used with one ID and species per line, separated by a tab (an [example](https://github.com/Ladarwall/Greenworld/blob/main/popmap_file_example.txt) is provided in this repository).
+Using a subset of individuals per species can substantially reduce the duration of this exploratory step.
 
 Can be used with the command `StacksExplorer.sh ./path/to/SamplesDirectory ./path/to/popmapFile`.
 
