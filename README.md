@@ -1,5 +1,5 @@
 # Rapid establishment of species barriers in plants compared to animals
-Repository of the article *Rapid establishment of species barriers in plants compared to animals, Monnet et al, to be published*.
+Repository of the article *Rapid establishment of species barriers in plants compared to animals, Monnet et al, unpublished*.
 Includes five scripts from the [workflow of this article](https://github.com/Ladarwall/Greenworld/blob/main/workflow_diagram.pdf), that can all be launched from a terminal.
 
 ## List of software
