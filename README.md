@@ -16,9 +16,7 @@ The three following scripts can be used to explore different combinations of par
 The purpose is to find a good enough combination of parameters to optimize the number of polymorphic loci (see [Lost in parameter space: a road map for stacks](https://doi.org/10.1111/2041-210X.12775)).
 
 ### StacksExplore.sh
-This script launch a set of *denovo_map.pl* runs (**Stacks**) with different parameters.
-
-It require two arguments: the pathway to a directory containing the sample files (fastq format) and the pathway to the popmap file.
+This script launch a set of *denovo_map.pl* runs (**Stacks**) with different parameters. It require two arguments: the pathway to a directory containing the sample files (fastq format) and the pathway to the popmap file.
 The popmap file should include a list of the samples to be used with one ID and species per line, separated by a tab (an [example](https://github.com/Ladarwall/Greenworld/blob/main/popmap_file_example.txt) is provided in this repository).
 
 Can be run with the following command : `StacksExplorer.sh ./path/to/SamplesDirectory ./path/to/popmapFile`
