@@ -19,7 +19,7 @@ The purpose is to find a good enough combination of parameters to optimize the n
 This script launch a set of *denovo_map.pl* runs (**Stacks**) with different parameters. It require two arguments: the pathway to a directory containing the sample files (fastq format) and the pathway to the popmap file.
 The popmap file should include a list of the samples to be used with one ID and species per line, separated by a tab (an [example](https://github.com/Ladarwall/Greenworld/blob/main/popmap_file_example.txt) is provided in this repository).
 
-Can be used with the command `StacksExplorer.sh ./path/to/SamplesDirectory ./path/to/popmapFile`
+Can be used with the command `StacksExplorer.sh ./path/to/SamplesDirectory ./path/to/popmapFile`.
 
 Once all the runs have been completed, the next script to use is *gimmeRad2plot.sh*.
 
@@ -42,7 +42,7 @@ The script as to been run in the same directory as the output of *gimmeRad2plot.
 ### patchOneLine.sh
 This script loops over a fasta file to ensure that each sequences is in single-line format (with no line breaks after a certain number of bases).
 
-Can be used with the command `patchOneLine.sh ./path/to/fasta`
+Can be used with the command `patchOneLine.sh ./path/to/fasta`.
 
 ### patchSPname.sh
 The fasta file produce by this pipeline lack the correct species name in the sequence headers, this can be corrected with this script.
