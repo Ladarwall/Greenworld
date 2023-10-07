@@ -1,5 +1,5 @@
 #!/bin/bash
-# gimmeRad2plot.sh *stacksExplorer directory*
+# gimmeRad2plot.sh *stacksExplorer.sh directory*
 
 ### Used after the script StacksExplorer.sh to produce a file ready to be plot with StacksExplorer_plots.R 
 # it doesn't take any argument, and output a dataframe (stacksExplorer_rdy2plot.csv) with the m, M, n, r80 (nb of loci present in at least 80% of individuals of a pop), the number of polymorphic loci and the r80 polymorphic loci (% of loci polymorphe per population).
