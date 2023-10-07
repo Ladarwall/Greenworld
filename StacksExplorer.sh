@@ -51,9 +51,9 @@ okay_answer="y yes Y YES okay yup oui o OUI O"
 
 # if the parameters and number of runs are okay, proceed, else exit
 if exists_in_list "$okay_answer" " " "$tmp";then
-	echo -e "\nOkay then, let's go for the show.\n"
+	echo -e "\nOkay, launching the runs.\n"
 else
-	echo -e "\nThat's what I thought, please correct the value of parameters directly in the script (look for -Hard coded value-, then try again.\n"
+	echo -e "\nPlease correct the value of parameters directly in the script (look for -Hard coded value-, then try again.\n"
 	exit
 fi
 
