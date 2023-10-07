@@ -11,7 +11,7 @@ Includes five scripts from the [workflow of this article](https://github.com/Lad
 - [ggplot2](https://ggplot2.tidyverse.org/)
 
 
-## To explore different combinations of parameters for **Stacks**
+## To explore different combinations of parameters for **Stacks**:
 The three following scripts can be used to explore different combinations of parameters for the script *denovo_map.pl* from **Stacks**.
 The purpose is to find a good enough combination of parameters to optimize the number of polymorphic loci (see [Lost in parameter space: a road map for stacks](https://doi.org/10.1111/2041-210X.12775)).
 
@@ -40,7 +40,7 @@ It also produces a pdf with the % of polymorphic loci for each species. In each 
 The script as to been run in the same directory as the output of *gimmeRad2plot.sh* (*stacksExplorer_rdy2plot.tsv*) and use as single argument the genus name (or analysis name). It can be run with the following command `Rscript ~/path/to/StacksExplorer_plots.R Genus_name`.
 
 
-## To modify fasta files
+## To modify fasta files:
 ### patchOneLine.sh
 This script loops over a fasta file to ensure that each sequences is in single-line format (with no line breaks after a certain number of bases).
 
