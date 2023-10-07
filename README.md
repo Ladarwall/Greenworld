@@ -1,4 +1,4 @@
-# Greenworld
+# Rapid establishment of species barriers in plants compared to animals
 Repository of the article *Rapid establishment of species barriers in plants compared to animals*. 
 
 ## List of software
@@ -12,7 +12,7 @@ Repository of the article *Rapid establishment of species barriers in plants com
 
 ## Explore different combinations of parameters for **Stacks**
 The three following scripts can be used to explore different combinations of parameters for the script *denovo_map.pl* from **Stacks**.
-The purpose is to find a good enough combination of parameters to optimize the number of polymorphic loci (see [Lost in parameter space: a road map for stacks](https://doi.org/10.1111/2041-210X.12775).
+The purpose is to find a good enough combination of parameters to optimize the number of polymorphic loci (see [Lost in parameter space: a road map for stacks](https://doi.org/10.1111/2041-210X.12775)).
 
 ### StacksExplore.sh
 This script launch a set of *denovo_map.pl* runs (**Stacks**) with different parameters.
