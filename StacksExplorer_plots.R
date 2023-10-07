@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # StacksExplorer_plots.R *genus_name*
 
-### To plot the dataframe from gogoStacksExplorer.sh and gimmeRad2plot.sh (plot of r80 of rad data).
+### To plot the dataframe from StacksExplorer.sh and gimmeRad2plot.sh (plot of r80 loci from rad data).
 ### Take as single argument the name of the genus.
 
 library(data.table)
