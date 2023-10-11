@@ -50,7 +50,7 @@ The fasta file produce by this pipeline lack the correct species name in the seq
 
 Can be used with the command `patchSPname.sh ./path/to/fasta ./path/to/SraRunTable.txt`.
 
-The SraRunTable.txt is a metadata file and can be obtain from the NCBI page [SRA Run Selector](https://www-ncbi-nlm-nih-gov.inee.bib.cnrs.fr/Traces/study/). You can also produce a similar metadata with a file containing two column named "Organism" and "Sample_Name" and separated by a tab.
+The SraRunTable.txt is a metadata file and can be obtain from the NCBI page [SRA Run Selector](https://www.ncbi.nlm.nih.gov/Traces/study/). You can also produce a similar metadata with a file containing two column named "Organism" and "Sample_Name" and separated by a tab.
 
 ## Data and materials availability:
 The assembled datasets, the list of references used for mapping and the results of demographic inference are deposited in Zenodo and accessible with the DOI :
